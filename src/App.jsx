@@ -204,10 +204,10 @@ export default function Portfolio() {
         </div>
         <div className="space-y-4">
           {[
-            { name: "LeetCode", url: "https://leetcode.com/u/pdubey1924/", level: 80 },
-            { name: "Codeforces", url: "https://codeforces.com/profile/pdubey1924", level: 70 },
-            { name: "GeeksforGeeks", url: "https://www.geeksforgeeks.org/user/pdubeyzunu/", level: 85 },
-            { name: "AtCoder", url: "https://atcoder.jp/users/Keizer_19", level: 65 },
+            { name: "LeetCode", url: "", level: 80 },
+            { name: "Codeforces", url: "", level: 70 },
+            { name: "GeeksforGeeks", url: "", level: 85 },
+            { name: "AtCoder", url: "", level: 65 },
           ].map((profile, index) => (
             <div key={index}>
               <a
